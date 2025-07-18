@@ -19,5 +19,4 @@ if time_bound == "yes":
     reminder += " that requires immediate attention today!"
 
 # Display the reminder
-print("\nReminder:")
-print(reminder)
+print("Reminder: ", reminder)
