@@ -1,7 +1,7 @@
 # Prompt the user for task details
-task = input("Enter the task description: ")
-priority = input("Enter the task's priority (high, medium, low): ").strip().lower()
-time_bound = input("Is the task time-bound? (yes or no): ").strip().lower()
+task = input("Enter your task: ")
+priority = input("Priority (high/medium/low): ").strip().lower()
+time_bound = input("Is it time-bound? (yes/no): ").strip().lower()
 
 # Start generating the reminder based on priority
 match priority:
